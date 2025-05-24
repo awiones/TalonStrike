@@ -1,0 +1,5 @@
+# requirements.txt for TalonStrike Telegram bot
+python-telegram-bot
+python-dotenv
+Flask
+requests
