@@ -53,6 +53,10 @@ coverage.xml
 # pyenv
 .python-version
 
+# Virtual environments
+venv/
+env/
+
 # dotenv
 .env
 
@@ -65,3 +69,5 @@ coverage.xml
 
 # Pyre type checker
 .pyre/
+
+.qodo
