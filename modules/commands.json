@@ -1,0 +1,13 @@
+[
+    {"command": "start", "description": "Show welcome message and bot info"},
+    {"command": "help", "description": "Show help and usage instructions"},
+    {"command": "nmap", "description": "Run nmap scan: /nmap <target> [options]"},
+    {"command": "phone", "description": "Trace phone number info: /phone +<country_code><number>"},
+    {"command": "dnslookup", "description": "Comprehensive DNS analysis: /dnslookup domain.com"},
+    {"command": "reversedns", "description": "Reverse DNS & geolocation: /reversedns <ip>"},
+    {"command": "whoislookup", "description": "WHOIS info for a domain: /whoislookup domain.com"},
+    {"command": "analyzeheader", "description": "Analyze email headers: /analyzeheader <headers>"},
+    {"command": "startai", "description": "Start AI chat"},
+    {"command": "stopai", "description": "Stop the current AI chat session"},
+    {"command": "doxing", "description": "Doxing"}
+]
