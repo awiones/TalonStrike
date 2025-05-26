@@ -72,6 +72,8 @@ def run_telegram_bot():
     app.add_handler(CommandHandler("startai", ai_bot.start_ai))
     app.add_handler(CommandHandler("stopai", ai_bot.stop_ai))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, ai_bot.ai_message_handler))
+    from modules.help import help_command
+    app.add_handler(CommandHandler("help", help_command))
     app.post_init = set_bot_commands
     app.run_polling()
 
