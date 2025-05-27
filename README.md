@@ -1,3 +1,8 @@
+<!-- filepath: /home/awion/TalonStrike/README.md -->
+<p align="center">
+  <img src="modules/images/logo.jpeg" alt="TalonStrike Logo" width="180"/>
+</p>
+
 # TalonStrike 🦅
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -5,6 +10,8 @@
 [![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://core.telegram.org/bots)
 
 A powerful and comprehensive Telegram bot designed for cybersecurity reconnaissance and network analysis. TalonStrike provides a wide range of tools for security professionals, researchers, and enthusiasts to perform various reconnaissance tasks directly through Telegram.
+
+---
 
 ## 🚀 Features
 
@@ -44,14 +51,13 @@ A powerful and comprehensive Telegram bot designed for cybersecurity reconnaissa
 2. **Install required dependencies:**
 
    ```bash
-   pip install python-telegram-bot python-dotenv flask requests nmap python-whois
+   pip install -r requirements.txt
    ```
 
 3. **Set up your environment:**
    ```bash
-   python main.py
+   # Follow the interactive setup to configure your tokens.
    ```
-   Follow the interactive setup to configure your tokens.
 
 ## ⚙️ Configuration
 
