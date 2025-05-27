@@ -56,7 +56,7 @@ A powerful and comprehensive Telegram bot designed for cybersecurity reconnaissa
 
 3. **Set up your environment:**
    ```bash
-   # Follow the interactive setup to configure your tokens.
+   python main.py
    ```
 
 ## ⚙️ Configuration
